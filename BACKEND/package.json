@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Proyecto que desarrolla una APIREST mediante NodeJS-Mysql que va a gestionar un CRUD",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api.js"
+  },
+  "author": "PRP prueba técnica",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  }
+}
